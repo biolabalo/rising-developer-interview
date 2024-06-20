@@ -1,6 +1,6 @@
 # Rising Stars User Details API
 
-This is a simple Node.js/Express application that provides an API to store and retrieve user details. The application uses SQLite for data storage and includes validation middleware to ensure data integrity.
+This is a simple Node.js/Express application that provides an API to store and retrieve user details. The application uses nodejs/express as web server and SQLite for data storage.
 
 ## Features
 

@@ -7,7 +7,6 @@ const app = express();
 app.use(bodyParser.json());
 const db = new sqlite3.Database(":memory:");
 
-
 db.serialize(() => {
   db.run(`CREATE TABLE users (
         id TEXT PRIMARY KEY,
@@ -21,7 +20,6 @@ db.serialize(() => {
         message_ids TEXT
     )`);
 });
-
 
 app.post(
   "/users",
